@@ -20,6 +20,7 @@ Testing
 
 # Things we talked about
 * Gemfiles (documenting which gems you used for future developers using your code)
+* `bundle install` to install everything listed in the Gemfile (need to `gem install bundler` first if `bundle install` fails)
 * .rspec files (need to be in the directory where you're running rspec, put any flags you always want to use there, namely -fd for the documentation)
 * passing blocks and yielding
 * custom errors for making your errors more intuitive for users of your code
